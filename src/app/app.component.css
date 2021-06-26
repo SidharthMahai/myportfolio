@@ -44,11 +44,12 @@ cursor: pointer;
 }
 
 .maincontent {
-    margin-top: 13%;
-    margin-left: 10%;
-    font-size:xx-large;
+    margin-top: 12%;
+    margin-left: 8%;
+    font-size:40px;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
   
   .typewriter-effect:after {
@@ -64,6 +65,7 @@ cursor: pointer;
 
   .titles {
       font-size: medium;
+      font-family: 'Courier New', Courier, monospace;
       color: #dbfad7;color: -webkit-linear-gradient(top left, #A9F99F, #46ADD5);color: -moz-linear-gradient(top left, #A9F99F, #46ADD5);color: linear-gradient(to bottom right, #A9F99F, #46ADD5);
   }
 
@@ -73,8 +75,16 @@ cursor: pointer;
       color: white;
       font-weight: bold;
       border-radius: 10px;
+      transition: all 0.3s ease-in-out;
   }
 
+  .explore:hover {
+    transform: scale(1.1);
+  }
+
+  .sid {
+    color:#1db954;
+  }
 
   @keyframes typing {
     75%,
