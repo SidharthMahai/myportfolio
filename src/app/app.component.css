@@ -13,7 +13,7 @@ float: left;;
 
 .brand {
 margin-left: 3%;
-margin-right: 34%;
+margin-right: 37%;
 color: white !important;
 font-weight:bolder;
 font-size: larger;
@@ -37,7 +37,7 @@ cursor: pointer;
 }
 
 .maincontent {
-    margin-top: 7%;
+    margin-top: 1%;
     margin-left: 8%;
     font-size: calc(30px + 0.5vw);
     color: white;
@@ -45,11 +45,6 @@ cursor: pointer;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
   
-  .typewriter-effect:after {
-    content: " </>";
-    animation: blink 1s infinite;
-    animation-timing-function: step-end;
-  }
 
   .social {
     margin-left: 2%;
@@ -63,7 +58,7 @@ cursor: pointer;
   }
 
   .explore {
-      margin-top: 3%;
+      margin-top: 2%;
       border: 2px solid green;
        border-color: #04AA6D;
       background: transparent;
@@ -96,22 +91,4 @@ cursor: pointer;
 
   .sid {
     color:#1db954;
-  }
-
-  @keyframes typing {
-    75%,
-    100% {
-      max-width: 14 * 1ch;
-    }
-  }
-  
-  @keyframes blink {
-    0%,
-    75%,
-    100% {
-      opacity: 1;
-    }
-    25% {
-      opacity: 0;
-    }
   }
